@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #9194ca;
+    
+}
+
+main{
+    max-width: 1000px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 0  auto;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    align-items:center ;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+li{
+    padding: 10px;
+    text-decoration: none;
+}
+
+        img{
+            width: 80%;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .frase{
+            margin: 50px;
+        }
+.bonito{
+    margin-top:20px ;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gato{
+    width: 300px;
+}
+.container{
+    display: none;
+}
+.alvaro-flores{
+    width: 300px;
+}
+
+button{
+    border: none;
+    padding: 10px  40px;
+    background-color: #9194ca;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #6568a4;
+    box-shadow: inset 3px 10px 10px rgba(0, 0, 0, 0.251);
+}
+
+h1{
+    font-size: 5,5em;
+    color: #9194ca;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+h2{
+    font-size: 5,5em;
+    color: #9194ca;
+    margin: 30px; 
+}
+
+h3{
+    font-size: 5,5em;
+    color: #9194ca;
+    margin: 30px; 
+}
